@@ -1,0 +1,59 @@
+{
+    "name": "cross-platform-system-interaction",
+    "version": "1.0.0",
+    "description": "API unificada e simplificada para interagir com funcionalidades nativas do sistema operacional em ambientes Node.js, como gerenciamento de arquivos, controle de processos e informações do sistema.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "test": "jest",
+      "prepublishOnly": "npm run build"
+    },
+    "files": [
+      "dist",
+      "README.md",
+      "LICENSE"
+    ],
+    "keywords": [
+      "os",
+      "native",
+      "filesystem",
+      "fs",
+      "process",
+      "child_process",
+      "clipboard",
+      "cross-platform",
+      "multi-platform",
+      "windows",
+      "macos",
+      "linux",
+      "system",
+      "automation",
+      "cli"
+    ],
+    "author": {
+      "name": "Fernando Martini",
+      "email": "fernandomartini@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fmartini23/cross-platform-system-interaction.git"
+    },
+    "homepage": "https://github.com/fmartini23/cross-platform-system-interaction#readme",
+    "bugs": {
+      "url": "https://github.com/fmartini23/cross-platform-system-interaction/issues"
+    },
+    "dependencies": {
+      "chokidar": "^3.6.0",
+      "clipboardy": "^4.0.0"
+    },
+    "devDependencies": {
+      "@types/jest": "^29.5.12",
+      "@types/node": "^20.12.12",
+      "jest": "^29.7.0",
+      "ts-jest": "^29.1.2",
+      "typescript": "^5.4.5"
+    }
+  }
+  

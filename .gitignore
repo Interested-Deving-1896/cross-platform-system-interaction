@@ -1,0 +1,64 @@
+# Arquivo .gitignore para o projeto Node.js/TypeScript
+
+# Logs
+# Ignora arquivos de log gerados pela aplicação ou por ferramentas.
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Diretórios de dependências
+# Este é o diretório mais importante a ser ignorado. Ele contém todos os pacotes
+# do npm/yarn/pnpm e pode ter gigabytes de tamanho. Deve ser reinstalado
+# em cada máquina usando `npm install`.
+node_modules
+
+# Diretório de saída da compilação do TypeScript
+# Contém o código JavaScript transpilado que será executado.
+# Deve ser gerado a partir dos fontes .ts com o comando `npm run build`.
+dist
+out
+build
+
+# Arquivos de ambiente
+# Contêm segredos, chaves de API e configurações específicas da máquina.
+# Nunca devem ser versionados. Um arquivo .env.example pode ser criado e versionado.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de sistema operacional
+# Arquivos de metadados gerados por diferentes sistemas operacionais.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de configuração de editores e IDEs
+# Mantém o repositório agnóstico em relação ao ambiente de desenvolvimento de cada um.
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Arquivos de teste
+# Ignora relatórios de cobertura de teste e caches do Jest.
+coverage/
+.jest-cache
+
+# Diretórios temporários criados pelos nossos testes
+# O diretório `test-temp-dir` que criamos nos testes de `file.test.ts`.
+tests/test-temp-dir
+
+# Pacotes e arquivos compactados
+# Ignora arquivos de pacotes gerados pelo `npm pack`.
+*.tgz
+
+# Fim do arquivo .gitignore
