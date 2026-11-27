@@ -71,7 +71,7 @@ Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-
 <!-- AI:start:contributors -->
 | Contributor | Commits |
 |---|---|
-| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 108 |
+| [@Interested-Deving-1896](https://github.com/Interested-Deving-1896) | 109 |
 | [@fmartini23](https://github.com/fmartini23) | 1 |
 <!-- AI:end:contributors -->
 
@@ -90,7 +90,7 @@ _No additional resource files found._
 ## Accessibility
 
 <!-- AI:start:accessibility -->
-No `accessibility-report.json` was found when this README was generated. Check the
+No  was found when this README was generated. Check the
 [Actions tab](https://github.com/Interested-Deving-1896/cross-platform-system-interaction/actions) for repository-specific checks, and document an
 accessibility status only when a report or workflow provides evidence for it.
 
